@@ -26,8 +26,8 @@ function drawArt() {
 
     ctx.fillStyle = "rgba(0, 255, 0, 1)";
     ctx.fillRect(m1 * width, m2 * height, m3 * width * 0.5, m4 * height * 0.5);
-    ctx.fillRect(m1 * width, m2 * height, m3 * width * 0.5, m4 * height * 0.5);
-    ctx.fillRect(m1 * width, m2 * height, m3 * width * 0.5, m4 * height * 0.5);
+    ctx.fillRect(m3 * width, m4 * height, m1 * width * 0.5, m2 * height * 0.5);
+    ctx.fillRect(m2 * width, m3 * height, m4 * width * 0.5, m1 * height * 0.5);
 
 
     triggerPreview();
